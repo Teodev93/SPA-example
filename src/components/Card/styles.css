@@ -1,0 +1,27 @@
+.card {
+  width: calc(25% - 20px);
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.card img {
+  width: 100%;
+  height: auto;
+}
+.card h2 {
+  margin-top: 10px;
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (min-width: 601px) {
+  .card {
+    width: calc(33% - 18px);
+  }
+}

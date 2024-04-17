@@ -1,0 +1,46 @@
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #000;
+  text-align: center;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.menu a {
+  margin: 0 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  padding: 23px 0;
+}
+
+.menu .logo {
+  display: inline-block;
+  width: 100px;
+  margin-right: 20px;
+}
+.menu .logo img {
+  width: 100%;
+  height: auto;
+}
+.menu .search {
+  display: flex;
+  align-items: center;
+}
+.menu .menu-currentPage {
+  border-bottom: 2px solid black;
+}
+
+@media (max-width: 650px) {
+  .menu a,
+  .menu input {
+    display: block;
+    margin: 10px 0;
+  }
+  .menu .logo {
+    width: 50px;
+    height: 25px;
+  }
+}
